@@ -25,7 +25,6 @@ public class Baekjoon14719 {
 
         int result = 0;
 
-
         for (int i = 1; i < W-1; i++) {
             left = right = 0;
             for (int j = 0; j < i; j++) {
@@ -42,6 +41,5 @@ public class Baekjoon14719 {
         }
 
         System.out.println(result);
-
     }
 }
